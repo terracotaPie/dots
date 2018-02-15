@@ -6,3 +6,4 @@ ln -s $(pwd)/sxhkd $HOME/.config/sxhkd
 ln -s $(pwd)/polybar $HOME/.config/polybar
 ln -s $(pwd)/gtk-3.0/gtk.css $HOME/.config/gtk-3.0/gtk.css
 ln -s $(pwd)/.Xresources $HOME/.Xresources
+ln -s $(pwd)/.compton.conf $HOME/.config/compton.conf
