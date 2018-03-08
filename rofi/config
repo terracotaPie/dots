@@ -1,5 +1,5 @@
 rofi.combi-modi:    window,drun
-rofi.theme:         solarized
-rofi.font:          Input 10
+rofi.theme:         paper-float
+rofi.font:          Hermit 10
 rofi.modi:          combi
 rofi.dpi: 190 

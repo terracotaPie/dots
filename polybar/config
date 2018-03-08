@@ -19,6 +19,7 @@ margin-top = 0
 margin-bottom = 0
 
 [bar/top]
+monitor = eDP1
 dpi = 190
 enable-ipc = true
 width = 100%
@@ -200,7 +201,7 @@ label-visible-padding = ${module/bspwm.label-empty-padding}
 type = internal/cpu
 interval = 2
 label = %percentage%%
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = #666
 
 [module/memory]
