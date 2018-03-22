@@ -27,6 +27,6 @@ color_presel_feedback="#9966cc"
 
 setting_borderless_monocle='false'
 #if xrandr | grep -q "DP1 connected"; then
-bspc monitor eDP1 -d term web code music irssi 
-bspc monitor DP1 -d VII VIII IX X
+#bspc monitor eDP1 -d term web code music irssi 
+#bspc monitor DP1 -d VII VIII IX X
 #fi

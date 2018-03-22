@@ -9,4 +9,8 @@ zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 zplug "lib/history", from:oh-my-zsh
 zplug "plugins/fasd",   from:oh-my-zsh
 
+alias ls="ls --color=auto"
+export EDITOR=nvim
+export VISUAL=nvim
+
 zplug load
