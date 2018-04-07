@@ -1,9 +1,9 @@
 [colors]
-background = #282a36
-foreground = #f8f8f2
-linecolor = #ff79c6
-bordercolor = #bd93f9
-accent = #ff79c6
+background = #ccfafafa
+foreground = #444
+linecolor = #fb2e22
+bordercolor = #555
+accent = #e60053
 
 [settings]
 ;throttle-output-for = 10
@@ -76,7 +76,7 @@ scroll-down = bspwm-desknext
 
 # bar/module specific vars
 bspwm-focused-overline = ${colors.linecolor}
-bspwm-focused-underline = #ff79c6
+bspwm-focused-underline = #cc333333
 
 [bar/bottom]
 dpi = 190
@@ -97,8 +97,8 @@ wm-restack = ${bar/top.wm-restack}
 tray-position = auto
 
 # bar/module specific vars
-bspwm-focused-overline = #ff79c6
-bspwm-focused-underline = #ff79c6
+bspwm-focused-overline = #cc333333
+bspwm-focused-underline = ${colors.linecolor}
 
 [module/github]
 type = internal/github
@@ -131,13 +131,13 @@ ws-icon-default = 
 inline-mode = true
 
 label-focused = %icon%
-label-focused-background = #f8f8f2
-label-focused-foreground = #ff79c6
+label-focused-background = #fff
+label-focused-foreground = #383838
 label-focused-overline = ${root.bspwm-focused-overline}
 label-focused-padding = 2
 label-occupied = %icon%
 label-occupied-padding = 2
-label-occupied-foreground = #f1fa8c
+label-occupied-foreground = #444
 label-urgent = %icon%
 label-urgent-background = #bd2c40
 label-urgent-padding = 2
