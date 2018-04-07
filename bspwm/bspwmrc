@@ -19,11 +19,8 @@ bspc rule -a Chrome desktop='^2'
 #bspc rule -a mplayer2 state=floating
 #bspc rule -a Kupfer.py focus=on
 #bspc rule -a Screenkey manage=off
-
-color_focused_border="#6162ae"
-color_normal_border="#282a37"
-color_active_border="#282a37"
-color_presel_feedback="#9966cc"
+bspc config focused_border_color #bd93f9
+bspc config normal_border_color #6272a4
 
 setting_borderless_monocle='false'
 #if xrandr | grep -q "DP1 connected"; then

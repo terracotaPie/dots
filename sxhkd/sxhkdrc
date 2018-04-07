@@ -133,3 +133,6 @@ XF86MonBrightnessUp
 
 XF86MonBrightnessDown
     xbacklight -dec 10
+
+super + F7
+    xkb-switch -n

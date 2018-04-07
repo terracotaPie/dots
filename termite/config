@@ -1,42 +1,81 @@
 [options]
-font = Mononoki 8
+font = Mononoki 10
+
+#[colors]
+## special
+#foreground      = #3c3c3b
+#foreground_bold = #3c3c3b
+#cursor          = #3c3c3b
+#background      = #eaeaea
+
+## black
+#color0  = #3c3c3b
+#color8  = #3c3c3b
+
+## red
+#color1  = #cb004d
+#color9  = #cb004d
+
+## green
+#color2  = #5f7c03
+#color10 = #5f7c03
+
+## yellow
+#color3  = #cb4a05
+#color11 = #cb4a05
+
+## blue
+#color4  = #345c9e
+#color12 = #345c9e
+
+## magenta
+#color5  = #754297
+#color13 = #754297
+
+## cyan
+#color6  = #33888d
+#color14 = #33888d
+
+## white
+#color7  = #eaeaea
+#color15 = #eaeaea
 
 [colors]
+
 # special
-foreground      = #3c3c3b
-foreground_bold = #3c3c3b
-cursor          = #3c3c3b
-background      = #eaeaea
+foreground      = #f8f8f2
+foreground_bold = #f8f8f2
+cursor          = #f8f8f2
+background      = #282a36
 
 # black
-color0  = #3c3c3b
-color8  = #3c3c3b
+color0  = #000000
+color8  = #4d4d4d
 
 # red
-color1  = #cb004d
-color9  = #cb004d
+color1  = #ff5555
+color9  = #ff6e67
 
 # green
-color2  = #5f7c03
-color10 = #5f7c03
+color2  = #50fa7b
+color10 = #5af78e
 
 # yellow
-color3  = #cb4a05
-color11 = #cb4a05
+color3  = #f1fa8c
+color11 = #f4f99d
 
 # blue
-color4  = #345c9e
-color12 = #345c9e
+color4  = #bd93f9
+color12 = #caa9fa
 
 # magenta
-color5  = #754297
-color13 = #754297
+color5  = #ff79c6
+color13 = #ff92d0
 
 # cyan
-color6  = #33888d
-color14 = #33888d
+color6  = #8be9fd
+color14 = #9aedfe
 
 # white
-color7  = #eaeaea
-color15 = #eaeaea
-
+color7  = #bfbfbf
+color15 = #e6e6e6
