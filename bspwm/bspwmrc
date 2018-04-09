@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-feh --bg-scale Pictures/pixel-gray.png &
+feh --bg-scale Pictures/dracula.png &
 sxhkd &
 compton &
 
@@ -16,6 +16,8 @@ bspc config gapless_monocle      true
 
 #bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chrome desktop='^2'
+bspc rule -a llpp desktop=^8
+
 #bspc rule -a mplayer2 state=floating
 #bspc rule -a Kupfer.py focus=on
 #bspc rule -a Screenkey manage=off

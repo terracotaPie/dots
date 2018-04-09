@@ -136,3 +136,6 @@ XF86MonBrightnessDown
 
 super + F7
     xkb-switch -n
+
+@button{10,11}
+    bspc desktop -f {prev,next}

@@ -10,7 +10,11 @@ zplug "lib/history", from:oh-my-zsh
 zplug "plugins/fasd",   from:oh-my-zsh
 
 alias ls="ls --color=auto"
+alias sudo="sudo -E"
 export EDITOR=nvim
 export VISUAL=nvim
 
+
 zplug load
+
+source /usr/share/nvm/init-nvm.sh
